@@ -1,4 +1,4 @@
-#find the missing number
+# #find the missing number
 
 arr =[1,2,4,5,6]
 
@@ -25,7 +25,7 @@ for i in range(start,end+1):
         print(i)
 
 
-arrays =[2,4,8,10,12]
+arrays =[10,12,16,18]
 
 diff = arrays[1] - arrays[0]# 4-2 = 2
 
@@ -39,3 +39,14 @@ for i in range(len(arrays)-1):
 
 
 
+ar = [1,3,5,9]
+
+difference= ar[1] - ar[0]
+
+for i in range(len(ar)-1):
+
+    if ar[i+1]-ar[i]!=2:
+
+        miss = ar[i]+difference
+
+        print(miss)
